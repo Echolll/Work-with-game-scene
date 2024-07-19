@@ -1,0 +1,54 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "ShapeMontion",
+            "id": "4a17c24b-831b-49eb-8e11-1b5e5f7bb1d4",
+            "actions": [
+                {
+                    "name": "StartMon",
+                    "type": "Button",
+                    "id": "5383e5a0-ce66-4275-852a-bf8f3076838f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StopMon",
+                    "type": "Button",
+                    "id": "40872383-6da9-4fc1-9bed-667774ba2339",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c96b4d51-4d00-4946-b60d-2524837a3abe",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartMon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9bf50c4c-8ca7-4088-a9c8-61d2eb060947",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StopMon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
